@@ -102,10 +102,18 @@ export default function HeroSection() {
       </div>
 
       {/* Scroll Icon */}
-      <div className="flex justify-center animate-bounce-soft mb-4">
-        <ChevronDown className="w-5 h-5 text-primary/50" />
+      <div
+        className="flex justify-center animate-bounce-soft mb-4 cursor-pointer"
+        onClick={() => {
+          window.scrollBy({
+            top: window.innerHeight * 0.9, // 👈 scrolls 60% of the screen height
+            behavior: "smooth",
+          })
+        }}
+      >
+        <ChevronDown className="w-6 h-6 text-primary/60 hover:text-primary transition-colors duration-300" />
       </div>
-
+      
       {/* ✅ CSS for seamless + responsive speed */}
       <style jsx>{`
         @keyframes marquee {

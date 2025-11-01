@@ -47,8 +47,13 @@ From scroll-triggered motion to intuitive navigation, Amplify redefines how agen
 ---
 
 ## 🔍 Preview
+
+
 A responsive, animated, and elegant digital marketing landing page — featuring scroll animations, flip effects, and motion-based interactivity.
+
+
 https://amplify-socialmediamarketing.vercel.app/
+
 ---
 
 ## 🖼️ Screenshot

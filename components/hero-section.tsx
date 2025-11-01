@@ -73,7 +73,7 @@ export default function HeroSection() {
         className="flex flex-col sm:flex-row gap-3 justify-center mb-10 animate-slide-in-up"
         style={{ animationDelay: "0.4s" }}
       >
-        <a href="#contact" className="px-6 py-3 rounded-full bg-gradient-to-r from-primary to-accent text-primary-foreground font-semibold hover:shadow-lg hover-lift transition-all duration-300 hover:glow-lilac">
+        <a href="#contact" className="px-6 py-3 rounded-full bg-gradient-to-r from-primary to-accent text-primary-foreground font-semibold hover:shadow-lg hover-lift transition-all duration-300 hover:glow-lilac text-center">
           Get Started
         </a>
         <button className="px-6 py-3 rounded-full border-2 border-primary text-primary font-semibold hover:bg-primary/10 transition-all duration-300">

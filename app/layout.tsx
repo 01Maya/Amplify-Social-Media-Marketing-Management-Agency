@@ -8,7 +8,7 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Social Media Marketing & Management Agency",
+  title: "Amplify - Social Media Marketing & Management Agency",
   description: "Your Digital Presence, Amplified - Premium social media marketing solutions",
 }
 

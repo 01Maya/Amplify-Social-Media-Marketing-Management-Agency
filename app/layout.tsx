@@ -10,7 +10,6 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Social Media Marketing & Management Agency",
   description: "Your Digital Presence, Amplified - Premium social media marketing solutions",
-  generator: "v0.app",
 }
 
 export default function RootLayout({

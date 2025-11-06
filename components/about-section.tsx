@@ -103,18 +103,29 @@ export default function AboutSection() {
             </div>
 
             {/* Stats */}
-            <div className="grid grid-cols-3 gap-4">
-              <div className="glass p-6 rounded-xl text-center hover-lift animate-slide-in-up" style={{ animationDelay: "0.4s" }}>
-                <div className="text-3xl font-bold gradient-text mb-2">{stats.campaigns}+</div>
-                <p className="text-sm text-foreground/60">Campaigns</p>
+            <div className="grid grid-cols-3 gap-2 sm:gap-4">
+              <div
+                className="glass p-4 sm:p-6 rounded-xl text-center hover-lift animate-slide-in-up"
+                style={{ animationDelay: "0.4s" }}
+              >
+                <div className="text-xl sm:text-3xl font-bold gradient-text mb-2">{stats.campaigns}+</div>
+                <p className="text-xs sm:text-sm text-foreground/60">Campaigns</p>
               </div>
-              <div className="glass p-6 rounded-xl text-center hover-lift animate-slide-in-up" style={{ animationDelay: "0.6s" }}>
-                <div className="text-3xl font-bold gradient-text mb-2">{stats.retention}%</div>
-                <p className="text-sm text-foreground/60">Retention</p>
+
+              <div
+                className="glass p-4 sm:p-6 rounded-xl text-center hover-lift animate-slide-in-up"
+                style={{ animationDelay: "0.6s" }}
+              >
+                <div className="text-xl sm:text-3xl font-bold gradient-text mb-2">{stats.retention}%</div>
+                <p className="text-xs sm:text-sm text-foreground/60">Retention</p>
               </div>
-              <div className="glass p-6 rounded-xl text-center hover-lift animate-slide-in-up" style={{ animationDelay: "0.8s" }}>
-                <div className="text-3xl font-bold gradient-text mb-2">{stats.growth}%</div>
-                <p className="text-sm text-foreground/60">Avg Growth</p>
+
+              <div
+                className="glass p-4 sm:p-6 rounded-xl text-center hover-lift animate-slide-in-up"
+                style={{ animationDelay: "0.8s" }}
+              >
+                <div className="text-xl sm:text-3xl font-bold gradient-text mb-2">{stats.growth}%</div>
+                <p className="text-xs sm:text-sm text-foreground/60">Avg Growth</p>
               </div>
             </div>
           </div>

@@ -149,12 +149,17 @@ export default function ServicesSection() {
                 style={{ animationDelay: `${index * 0.08}s` }}
               >
                 {/* FRONT SIDE */}
-                <div className="absolute inset-0 glass p-8 rounded-2xl flex flex-col items-start justify-center backface-hidden transition-all duration-500 hover:scale-[1.03] hover:shadow-xl hover:shadow-primary/30 hover:-translate-y-1">
+                <div className="absolute inset-0 glass p-8 rounded-2xl flex flex-col items-start justify-center backface-hidden transition-all duration-500 hover:scale-[1.03] hover:shadow-xl hover:shadow-primary/30 hover:-translate-y-1 group">
                   <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-primary to-accent flex items-center justify-center mb-4 transition-transform duration-500 group-hover:scale-105">
                     <Icon className="w-7 h-7 text-primary-foreground" />
                   </div>
                   <h3 className="text-xl font-semibold mb-3 text-foreground">{service.title}</h3>
-                  <p className="text-foreground/60 leading-relaxed">{service.description}</p>
+                  <p className="text-foreground/60 leading-relaxed mb-6">{service.description}</p>
+  
+                  {/* ↻ Flip Indicator */}
+                  <div className="absolute bottom-4 right-4 text-xs text-primary flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300 sm:flex">
+                    <span>↻ Flip</span>
+                  </div>
                 </div>
 
                 {/* BACK SIDE - improved spacing and alignment */}

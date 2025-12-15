@@ -68,10 +68,10 @@ https://amplify-socialmediamarketing.vercel.app/
   git clone https://github.com/yourusername/amplify-agency.git
 
 # Navigate to the project directory
-cd amplify-agency
+  cd amplify-agency
 
 # Install dependencies
-npm install
+  npm install
 
 # Run the development server
 npm run dev

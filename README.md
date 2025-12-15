@@ -65,7 +65,7 @@ https://amplify-socialmediamarketing.vercel.app/
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/amplify-agency.git
+  git clone https://github.com/yourusername/amplify-agency.git
 
 # Navigate to the project directory
 cd amplify-agency

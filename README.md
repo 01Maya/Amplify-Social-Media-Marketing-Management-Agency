@@ -1,4 +1,4 @@
-# 💜 Amplify – Social Media Agency Landing Page
+# 💜 Amplify – Social Media Agency Landing Page 🪄
 
 A sleek, responsive, and animated digital marketing website built to help brands grow through storytelling, strategy, and analytics.
 
